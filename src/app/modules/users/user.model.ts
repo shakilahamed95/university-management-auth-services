@@ -1,7 +1,5 @@
-import { Model, Schema, model } from 'mongoose'
-import { IUser } from './users.interface'
-
-type UserModel = Model<IUser, object>
+import { Schema, model } from 'mongoose'
+import { IUser, UserModel } from './user.interface'
 
 const userSchema = new Schema<IUser>(
   {
@@ -20,7 +18,7 @@ const userSchema = new Schema<IUser>(
     },
   },
   {
-    // for created and updated time provide by mongodb 
+    // for created and updated time provide by mongodb
     timestamps: true,
   }
 )
