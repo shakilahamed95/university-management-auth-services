@@ -1,0 +1,12 @@
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T17:25:03.446Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T17:25:03.465Z'
+}
